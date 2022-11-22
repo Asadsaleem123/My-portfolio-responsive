@@ -1,0 +1,124 @@
+body{
+   margin: 0;
+   padding:0;
+   text-align: center;
+   background-color: #100c08;
+   color: white;
+   font-size: 18px;
+}
+.container{
+    width: 93%;
+    margin: 0 auto;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+input{
+    width: 100%;
+    border-bottom: 2 px solid whitesmoke;
+    padding: 1.5em;
+    background-color: #28231D;
+    font-size: 1.25rem;
+}
+.nav-container{
+margin: 0 auto;
+width: 250px;
+ height:400px;
+background-image: url("../images/asad1.jpg");
+background-size:cover;
+background-repeat: no-repeat;
+/* display: flex; */
+flex-direction: column;
+background-color: black;
+background-position: center;
+background-position: -65px 50px;
+border: 2px solid #343434;
+margin-bottom: 2em;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0.3em;
+}
+.logo{
+    color: white;
+}
+span{
+    border-bottom:3px solid green;
+    margin-bottom: 0;
+}
+
+
+.Experince-section{
+    border-bottom: 2px solid whitesmoke;
+    border-top: 2px solid whitesmoke;
+    padding: 2.5em 0;
+}
+.Experince-section,h1{
+    margin-bottom: 0;
+}
+.Experince-section,h1{
+    margin-top: 0;
+}
+.intro-container{
+    margin-bottom: 6em;
+}
+.project-section-flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-box{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap:30px
+}
+.flex-box p{
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: #28231D;
+    padding: 4em 0;
+    
+}
+
+.message{
+    padding-bottom: 6em;
+}
+.btn-container{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid whitesmoke;
+    padding: 0 .5em 5em 0;
+}
+.btn{
+    border: none;
+    background-color: none;
+    padding: 1em;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+.border-bottom{
+    /* border-bottom:  solid whitesmoke; */
+}
+.icons-container{
+    display: flex;
+    padding: 0 4em;
+}
+.logo{
+    width: 30px;
+    margin:0 auto;
+}
